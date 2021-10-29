@@ -1,0 +1,724 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.fl{
+    float: left;
+}
+
+.fr{
+    float: right;
+}
+
+.new{
+    float: left;
+    margin-left: 1%;
+}
+
+.clr{
+    clear: both;
+}
+
+.container{
+    background-color: rgb(116,210,231);
+    height: 140vh;
+    width: 100%;
+    padding-top: 40px;
+    margin-bottom: 100px;
+}
+
+/* head section start */
+
+.head{
+    width: 100%;
+    height: 80px;
+    border-bottom: 1px solid lightgrey;
+}
+
+.title ul li{
+    list-style: none;
+}
+
+.title ul li a{
+    text-decoration: none;
+    font-size: 40px;
+    color: rgb(26, 25, 25);
+    font-weight: 400;
+}
+
+.title .white{
+    color: white;
+    font-size: 45px;
+    font-weight: 900;
+}
+
+.colr{
+    color: grey;
+}
+
+.header{
+    width: 90%;
+    margin: auto;
+    height: 100%;
+}
+
+.prof ul li{
+    display: inline;
+    line-height: 80px;
+    margin-left: 20px;
+}
+
+.prof ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+.prof ul li a i{
+    color: white;
+    padding-right: 5px;
+}
+
+/* head section end */
+
+/* nav-bar section start */
+.nav-bar{
+    height: 100px;
+    width: 100%;
+}
+
+.nav ul li{
+    display: inline;
+    margin-left: 20px;
+    line-height: 100px;
+}
+
+.nav .toma{
+    color: tomato;
+}
+
+.nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+.nav ul li a:hover{
+    color: tomato;
+}
+
+.ser{
+    line-height: 100px;
+}
+
+.ser input[type="text"]{
+    padding: 4px 10px;
+    width: 300px;
+    border: none;
+    outline: none;
+    height: 40px;
+    line-height: 100px;
+    position: relative;
+}
+
+
+.ser button{
+    position: absolute;
+    top: 165px;
+    right: 75px;
+    border: none;
+    outline: none;
+    
+}
+
+.ser button a{
+    padding: 7px 17px;
+    background-color: tomato;
+    color: white;
+    border-radius: 4px;
+}
+
+/* nav-bar section end */
+
+/* banner section start */
+
+.banner-section{
+    width: 100%;
+    height: 630px;
+    margin-bottom: 100px;
+}
+
+.banner-section .text{
+    width: 45%;
+    height: 100%;
+    padding-top: 200px;
+}
+
+.banner-section .text ul li{
+    list-style: none;
+    font-size: 40px;
+    
+}
+
+.banner-section .text .lwhi{
+    color: white;
+    margin-bottom: 20px;
+}    
+.banner-section .text .btn{
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    padding: 8px 20px;
+    background-color: rgb(250, 59, 25);
+    border-radius: 5px;
+}
+
+.banner-section .text .btn:hover{
+    background-color: tomato;
+}
+
+.image{
+    background-image: url(../img/bag.png);
+    height: 100%;
+    width: 50%;
+    background-size: 100% 100%;
+}
+
+/* banner section end */
+
+/* text row section start */
+.row1{
+    width: 90%;
+    height: 200px;
+    margin: auto;
+}
+
+.box1{
+    width: 32.66%;
+    height: 100%;
+    text-align: center;
+}
+
+.box1 h3{
+    margin-bottom: 20px;
+}
+
+.box1 p{
+    line-height: 30px;
+    color: grey;
+}
+
+/* text row section end */
+
+/* banner + image section start */
+
+.banimg{
+    width: 100%;
+    height: 400px;
+}
+
+.banner1{
+    width: 64%;
+    height: 100%;
+    background-image: url(../img/banner1.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.text1{
+    width: 35%;
+    height: 100%;
+    padding: 150px 0;
+    text-align: center;
+}
+
+.text1 h3{
+    margin-bottom: 10px;
+}
+
+.text1  p{
+    color: grey;
+    margin-bottom: 20px;
+    line-height: 30px;
+}
+
+.text1 a{
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    padding: 8px 20px;
+    background-color: rgb(247, 57, 23);
+    border-radius: 5px;
+}
+
+.text1 a:hover{
+    background-color: tomato;
+}
+
+
+/* banner + image section end */
+
+/* row2 section start */
+.row2{
+    width: 90%;
+    height: 450px;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.row2 .pbox1{
+    width: 30%;
+    height: 100%;
+}
+
+.row2 .imag1{
+    background-image: url(../img/c1.jpg);
+    width: 30%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.row2 .imag2{
+    background-image: url(../img/c2.jpg);
+    width: 30%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.row2 .pbox2{
+    width: 40%;
+    height: 100%;
+    text-align: center;
+    padding: 180px 40px;
+}
+
+.pbox2 h3{
+    margin-bottom: 20px;
+}
+
+.pbox2 p{
+    line-height: 30px;
+    color: grey;
+    margin-bottom: 30px;
+}
+
+.pbox2 a{
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    padding: 8px 20px;
+    background-color: rgb(247, 57, 23);
+    border-radius: 5px;
+}
+
+.pbox2 a:hover{
+    background-color: tomato;
+}
+
+/* row2 section end */
+
+/* row3 section start */
+.row3{
+    width: 100%;
+    height: 350px;
+    margin-top: 100px;
+}
+
+
+.rbox1{
+    width: 50%;
+    height: 100%;
+}
+
+.bg1{
+    background-image: url(../img/ab1.jpg);
+    width: 50%;
+    height: 100%;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    padding: 100px 50px;
+}
+
+.bg2{
+    background-image: url(../img/ab2.jpg);
+    width: 50%;
+    height: 100%;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    padding: 100px 50px;
+}
+
+.rbox1 h1{
+    color: white;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+.rbox1 a{
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    padding: 8px 20px;
+    background-color: rgb(247, 57, 23);
+    border-radius: 5px;
+}
+
+.rbox1 a:hover{
+    background-color: tomato;
+}
+
+/* row3 section end */
+
+
+/* row4 section start */
+.row4{
+    width: 90%;
+    height: 400px;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.r4cl1{
+    padding: 15px;
+    width: 30%;
+    height: 100%;
+    text-align: center;
+}
+
+.r4cl1 h1{
+    margin-bottom: 30px;
+
+}
+
+.r4cl1 p{
+    font-size: 18px;
+    line-height: 30px;
+    color: grey;
+    margin-bottom: 30px;
+}
+
+.r4cl1 a{
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    padding: 8px 20px;
+    background-color: rgb(247, 57, 23);
+    border-radius: 5px;
+}
+
+.r4cl1 a:hover{
+    background-color: tomato;
+}
+
+.r4cl2 {
+    width: 70%;
+    height: 100%;
+    text-align: center;
+}
+
+.r4r1{
+    width: 100%;
+    height: 49%;
+    margin-bottom: 1%;
+}
+
+.rcl1{
+    width: 32.66%;
+    height: 100%;
+}
+
+.r4r1 .im1{
+    background-image: url(../img/g1.jpg);
+    width: 32.66%;
+    height: 100%;
+    background-size: contain;
+}
+.r4r1 .im2{
+    background-image: url(../img/g2.jpg);
+    width: 32.66%;
+    height: 100%;
+    background-size: contain;
+}
+.r4r1 .im3{
+    background-image: url(../img/g3.jpg);
+    width: 32.66%;
+    height: 100%;
+    background-size: contain;
+}
+
+.r4r2{
+    width: 100%;
+    height: 49%;
+}
+
+.r4r2 .im4{
+    background-image: url(../img/g4.jpg);
+    width: 32.66%;
+    height: 100%;
+    background-size: contain;
+}
+
+.r4r2 .im5{
+    background-image: url(../img/g5.jpg);
+    width: 32.66%;
+    height: 100%;
+    background-size: contain;
+}
+
+.r4r2 .im6{
+    background-image: url(../img/g6.jpg);
+    width: 32.66%;
+    height: 100%;
+    background-size: contain;
+}
+
+/* row4 section end */
+
+/* row5 section start */
+.row5{
+    width: 100%;
+    height: 300px;
+    background-color: rgb(247,247,247);
+    text-align: center;
+    margin-top: 100px;
+    padding: 90px 100px;
+}
+
+.row5 h3{
+    color: rgb(119,119,119);
+    line-height: 30px;
+    margin-bottom: 30px;
+}
+
+form input[type="email"]{
+    width: 400px;
+    height: 40px;
+    letter-spacing: 4px;
+    padding: 2px 10px;
+    margin-right: 50px;
+    outline: none;
+    border: none;
+}
+
+form input[type="submit"]{
+    background-color: rgb(83, 184, 224);
+    color: white;
+    height: 40px;
+    letter-spacing: 4px;
+    padding: 0 50px;
+    outline: none;
+    cursor: pointer;
+    border: none;
+}
+
+form input[type="submit"]:hover{
+    background-color: skyblue;
+}
+
+/* row5 section end */
+
+/* row6 section start */
+.row6{
+    width: 100%;
+    height: 200px;
+}
+
+.row6 .iconbox1{
+    width: 33.33%;
+    height: 100%;
+    padding: 30px 0;
+    color: white;
+    text-align: center;
+    background-color: black;
+}
+.row6 .iconbox1:hover{
+    background: rgb(83, 184, 224);
+}
+
+.row6 .iconbox2{
+    width: 33.33%;
+    height: 100%;
+    padding: 30px 0;
+    color: white;
+    text-align: center;
+    background-color: grey;
+}
+.row6 .iconbox2:hover{
+    background: rgb(83, 184, 224);
+}
+
+.row6 .iconbox3{
+    width: 33.33%;
+    height: 100%;
+    padding: 30px 0;
+    color: white;
+    text-align: center;
+    background-color: black;
+}
+.row6 .iconbox3:hover{
+    background: rgb(83, 184, 224);
+}
+
+.row6 i{
+    color: rgb(247, 71, 40);
+    margin-bottom: 30px;
+}
+
+.row6 h3{
+    margin-bottom: 30px;
+}
+
+.row6 p{
+    color: lightgrey;
+}
+
+/* row6 section end */
+
+
+/* footer section start */
+.footer{
+    width: 100%;
+    height: 76vh;
+}
+
+
+/* nav bar section start */
+
+.fnav{
+    width: 90%;
+    height: 30vh;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.fbox{
+    width: 25%;
+    height: 100%;
+}
+
+.fbox ul li{
+    list-style: none;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.fbox ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+.fbox ul li a i{
+    padding-right: 15px;
+}
+
+.fbox ul li a:hover{
+    color: rgb(241, 73, 43);
+}
+
+.fbox h1{
+    font-size: 45px;
+    font-weight:100;
+    color: black;
+}
+
+.fbox a{
+    text-decoration: none;
+}
+
+.fbox span{
+    color: rgb(113, 200, 235);
+    font-size: 50px;
+}
+
+.fbox p{
+    letter-spacing: 8px;
+}
+
+/* nav-bar section end */
+
+/* contact us section start */
+.contact{
+    width: 90%;
+    height: 20vh;
+    margin: auto;
+    text-align: center;
+    padding: 20px 0;
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
+}
+
+.contact h2{
+    margin-bottom: 20px;
+}
+
+.contact ul li{
+    display: inline;
+}
+
+.contact ul li a{
+    text-decoration: none;
+    margin-left: 30px;
+    color: black;
+}
+
+.contact ul li a i{
+    margin-right: 20px;
+    padding: 10px 15px;
+}
+
+.contact ul li a .blue{
+    color: blue;
+}
+.contact ul li a .blue:hover{
+    color: white;
+    background-color: blue;
+}
+
+.contact ul li a .skyblue{
+    color: rgb(6, 138, 190);
+}
+.contact ul li a .skyblue:hover{
+    color: white;
+    background-color: rgb(6, 138, 190);
+}
+
+.contact ul li a .tomato{
+    color: tomato;
+}
+.contact ul li a .tomato:hover{
+    color: white;
+    background-color: tomato;
+}
+
+/* contact us section end */
+
+/* icon start */
+.icon{
+    text-align: center;
+    height: 15vh;
+    width: 100%;
+    padding: 8vh 0;
+}
+/* icon end */
+
+/* last section start */
+.lfoot{
+    width: 100%;
+    height: 10vh;
+    background-color: lightgrey;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.lfoot a{
+    text-decoration: none;
+    color: black;
+}
+
+/* last section end */
+
+
+
+/* footer section end */
